@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "image": "/image/dji-mavic-air-2.webp",
+        "title": "DJI Mavic Air 2",
+        "brand": "DJI",
+        "price": 799,
+        "description": "El DJI Mavic Air 2 es un dron compacto y potente que ofrece una experiencia de vuelo excepcional. Con una cámara de 48MP, este dron captura imágenes de alta resolución y videos increíbles. Equipado con características avanzadas como seguimiento automático y evitación de obstáculos, el Mavic Air 2 es perfecto para fotógrafos y entusiastas de los drones.",
+        "specs": {
+            "weight_grams": "570 gramos",
+            "battery_life_minutes": "34 minutos",
+            "camera_resolution": "48MP",
+            "range_km": "18.5km",
+            "max_speed_kph": "68.4km/h",
+            "gps": "Sí"
+        },
+        "category": "Fotografía",
+        "ratings": {
+            "average_rating": 4.8,
+            "reviews_count": 124
+        }
+    },
+    {
+        "id": 2,
+        "image": "/image/dji-mini-2.webp",
+        "title": "DJI Mini 2",
+        "brand": "DJI",
+        "price": 449,
+        "description": "El DJI Mini 2 es un dron ultraligero y plegable diseñado para la portabilidad y la facilidad de uso. A pesar de su pequeño tamaño, este dron ofrece una calidad de imagen excepcional gracias a su cámara de 12MP y capacidades de grabación de video en 4K. Perfecto para principiantes y viajeros que desean capturar momentos inolvidables desde el aire.",
+        "specs": {
+            "weight_grams": "249 gramos",
+            "battery_life_minutes": "31 minutos",
+            "camera_resolution": "12MP",
+            "range_km": "10km",
+            "max_speed_kph": "57.6km/h",
+            "gps": "Sí"
+        },
+        "category": "Fotografía",
+        "ratings": {
+            "average_rating": 4.7,
+            "reviews_count": 210
+        }
+    },
+    {
+        "id": 3,
+        "image": "/image/dji-mavic-3.webp",
+        "title": "DJI Mavic 3",
+        "brand": "DJI",
+        "price": 3999,
+        "description": "El DJI Mavic 3 es un dron de grado profesional con un sistema de doble cámara que ofrece una calidad de imagen excepcional. Con características avanzadas como el seguimiento de objetos y la detección de obstáculos en todas las direcciones, este dron es la opción ideal para cineastas y fotógrafos que buscan la máxima versatilidad y calidad.",
+        "specs": {
+            "weight_grams": "895 gramos",
+            "battery_life_minutes": "46 minutos",
+            "camera_resolution": "20MP + 12MP",
+            "range_km": "30km",
+            "max_speed_kph": "75km/h",
+            "gps": "Sí"
+        },
+        "category": "Profesional",
+        "ratings": {
+            "average_rating": 4.9,
+            "reviews_count": 87
+        }
+    },
+    {
+        "id": 4,
+        "image": "/image/autel-robotics-evo-lite+.webp",
+        "title": "Autel Robotics Evo Lite+",
+        "brand": "Autel",
+        "price": 2250,
+        "description": "El Autel Robotics Evo Lite+ es un dron de alto rendimiento con un sensor CMOS de 1 pulgada que ofrece una calidad de imagen excepcional. Con una batería de larga duración y capacidades de grabación en 4K, este dron es perfecto para profesionales que requieren calidad y fiabilidad en cada vuelo.",
+        "specs": {
+            "weight_grams": "835 gramos",
+            "battery_life_minutes": "40 minutos",
+            "camera_resolution": "50MP",
+            "range_km": "24km",
+            "max_speed_kph": "68km/h",
+            "gps": "Sí"
+        },
+        "category": "Profesional",
+        "ratings": {
+            "average_rating": 4.6,
+            "reviews_count": 52
+        }
+    },
+    {
+        "id": 5,
+        "image": "/image/skydio-2.webp",
+        "title": "Skydio 2",
+        "brand": "Skydio",
+        "price": 2999,
+        "description": "El Skydio 2 es un dron autónomo con capacidades avanzadas de inteligencia artificial. Equipado con una cámara de 12MP y capacidades de vuelo autónomo, este dron es ideal para deportes de acción y actividades al aire libre donde se requiere seguimiento en movimiento constante.",
+        "specs": {
+            "weight_grams": "775 gramos",
+            "battery_life_minutes": "23 minutos",
+            "camera_resolution": "12MP",
+            "range_km": "3.5km",
+            "max_speed_kph": "58km/h",
+            "gps": "Sí"
+        },
+        "category": "Avanzado",
+        "ratings": {
+            "average_rating": 4.5,
+            "reviews_count": 65
+        }
+    },
+    {
+        "id": 6,
+        "image": "/image/parrot-anafi.webp",
+        "title": "Parrot Anafi",
+        "brand": "Parrot",
+        "price": 699,
+        "description": "El Parrot Anafi es un dron ligero y portátil con una cámara HDR de 4K. Con una autonomía de vuelo de hasta 25 minutos y un rango de 4 km, este dron es perfecto para entusiastas de la fotografía y videografía que buscan capturar imágenes impresionantes desde el aire.",
+        "specs": {
+            "weight_grams": "320 gramos",
+            "battery_life_minutes": "25 minutos",
+            "camera_resolution": "21MP",
+            "range_km": "4km",
+            "max_speed_kph": "55km/h",
+            "gps": "Sí"
+        },
+        "category": "Fotografía",
+        "ratings": {
+            "average_rating": 4.4,
+            "reviews_count": 98
+        }
+    }
+]
