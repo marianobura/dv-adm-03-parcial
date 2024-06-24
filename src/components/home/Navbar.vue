@@ -23,5 +23,6 @@
     background-color: #FFFFFF;
     height: 60px;
     width: 100%;
+    border-top: 1px solid var(--bg-color-02);
 }
 </style>
