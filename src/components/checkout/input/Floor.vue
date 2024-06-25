@@ -1,12 +1,7 @@
 <script setup>
     import { ref } from 'vue';
 
-    let floor = defineModel()
-    let isValid = ref(false)
-
-    const handleInput = () => {
-        isValid.value = floor.value.length < 1
-    }
+    let floor = ref('')
 </script>
 
 <template>
@@ -15,12 +10,9 @@
 
         <input 
             id="user-floor" 
-            type="text" 
+            type="number" 
             placeholder="Ingrese su piso"
             v-model="floor"
-            @input="handleInput"
         />
-
-        <p v-if="isValid">Piso requerido</p>
     </div>
 </template>

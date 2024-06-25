@@ -1,7 +1,7 @@
 <script setup>
     import { ref } from 'vue';
 
-    let fullName = defineModel()
+    let fullName = ref('')
     let isValid = ref(false)
 
     const handleInput = () => {

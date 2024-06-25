@@ -1,7 +1,7 @@
 <script setup>
     import { ref } from 'vue';
 
-    let address = defineModel()
+    let address = ref('')
     let isValid = ref(false)
 
     const handleInput = () => {

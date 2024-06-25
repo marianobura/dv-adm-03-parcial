@@ -1,11 +1,11 @@
 <script setup>
     import { ref } from 'vue';
 
-    let locality = defineModel()
+    let locality = ref('')
     let isValid = ref(false)
 
     const handleInput = () => {
-        isValid.value = locality.value.length < 1
+        isValid.value = locality.value.length < 4
     }
 </script>
 

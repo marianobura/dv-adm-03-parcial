@@ -1,11 +1,13 @@
 <script setup>
     import { ref } from 'vue';
 
-    let zipCode = defineModel()
-    let isValid = ref(false)
+    let zipCode = ref('');
+    let isValid = ref(false);
+
+    const zipCodePattern = /^\d{4}$|^[A-Z]\d{4}$|^[A-Z]\d{4}[A-Z]{3}$/;
 
     const handleInput = () => {
-        isValid.value = zipCode.value.length < 1
+        isValid.value = !zipCodePattern.test(zipCode.value);
     }
 </script>
 

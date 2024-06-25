@@ -5,6 +5,7 @@
     import Address from './input/Address.vue';
     import Floor from './input/Floor.vue';
     import ZipCode from './input/ZipCode.vue';
+    import Province from './input/Province.vue';
     import NavInfo from '../NavInfo.vue';
 
 </script>
@@ -18,9 +19,11 @@
         <FullName />
         <PhoneNumber />
         <h1>Dirección de envío</h1>
+        <Province />
         <Locality />
         <Address />
         <Floor />
         <ZipCode />
+        <!-- <button :disabled="!isValid">Continuar</button> -->
     </form>
 </template>
