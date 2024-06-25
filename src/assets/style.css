@@ -116,3 +116,7 @@ svg:not(.lucide-home) {
 .blue-opacity {
     background-color: var(--blue-color-03);
 }
+
+.m-60 {
+    margin-bottom: 60px;
+}

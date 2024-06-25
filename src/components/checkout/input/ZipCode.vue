@@ -12,10 +12,11 @@
 </script>
 
 <template>
-    <div>
-        <label for="user-zipcode">Código postal</label>
+    <div class="form-group col">
+        <label for="user-zipcode">Código postal <span>*</span></label>
 
         <input 
+            class="form-control"
             id="user-zipcode" 
             type="text" 
             placeholder="Ingrese su código postal"

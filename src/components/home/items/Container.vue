@@ -26,9 +26,3 @@
         </div>
     </div>
 </template>
-
-<style>
-.m-60 {
-    margin-bottom: 60px;
-}
-</style>

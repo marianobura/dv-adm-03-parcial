@@ -43,7 +43,7 @@
             <h3 class="m-0 text-muted fs-6">Total</h3>
         </div>
         <div>
-            <p class="m-0 fs-3 fw-700 blue-color">${{ total.toFixed(2) }}</p>
+            <p class="m-0 fs-3 fw-700 blue-color">${{ total }}</p>
         </div>
     </div>
 </template>

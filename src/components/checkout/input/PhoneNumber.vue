@@ -12,10 +12,11 @@
 </script>
 
 <template>
-    <div>
-        <label for="user-phonenumber">Número de teléfono</label>
+    <div class="form-group">
+        <label for="user-phonenumber">Número de teléfono <span>*</span></label>
 
         <input
+            class="form-control"
             id="user-phonenumber" 
             type="number" 
             placeholder="Ingrese su número de teléfono" 

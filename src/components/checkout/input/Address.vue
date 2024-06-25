@@ -10,10 +10,11 @@
 </script>
 
 <template>
-    <div>
-        <label for="user-address">Dirección</label>
+    <div class="form-group">
+        <label for="user-address">Dirección <span>*</span></label>
 
         <input 
+            class="form-control"
             id="user-address" 
             type="text" 
             placeholder="Ingrese su dirección"

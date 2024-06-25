@@ -2,7 +2,7 @@
     defineProps ({
         image : String,
         title : String,
-        price : String,
+        price : Number,
         alt : String,
     })
 </script>

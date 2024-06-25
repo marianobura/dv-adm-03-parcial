@@ -1,19 +1,22 @@
 <script setup>
     import { ref } from 'vue';
 
-    let fullName = ref('')
-    let isValid = ref(false)
+    let fullName = ref('');
+    let isValid = ref(false);
+
+    const fullNamePattern = /^[a-zA-Z ]+$/;
 
     const handleInput = () => {
-        isValid.value = fullName.value.length < 1
+        isValid.value = !fullNamePattern.test(fullName.value);
     }
 </script>
 
 <template>
-    <div>
-        <label for="user-fullname">Nombre completo</label>
+    <div class="form-group">
+        <label for="user-fullname">Nombre completo <span>*</span></label>
 
-        <input 
+        <input
+            class="form-control"
             id="user-fullname" 
             type="text" 
             placeholder="Ingrese su nombre completo"

@@ -5,10 +5,11 @@
 </script>
 
 <template>
-    <div>
+    <div class="form-group col">
         <label for="user-floor">Piso</label>
 
         <input 
+            class="form-control"
             id="user-floor" 
             type="number" 
             placeholder="Ingrese su piso"

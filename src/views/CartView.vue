@@ -9,7 +9,7 @@
     :viewTitle = "'Carrito de Compras'"
     />
     <CartInfo />
-    <RouterLink to="/">
+    <RouterLink to="/checkout">
         <ButtonFixed 
         :textContent = "'VERIFICAR EL PAGO'"
         />
