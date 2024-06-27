@@ -15,6 +15,11 @@ const router = createRouter({
       component: () => import('../views/ProductView.vue')
     },
     {
+      path: '/search',
+      name: 'Search',
+      component: () => import('../views/SearchView.vue')
+    },
+    {
       path: '/cart',
       name: 'Cart',
       component: () => import('../views/CartView.vue')
@@ -29,7 +34,15 @@ const router = createRouter({
       name: 'Payment',
       component: () => import('../views/PaymentView.vue')
     },
-  ]
+  ],
+  scrollBehavior(to) {
+    if (to.hash) {
+      return { el: to.hash };
+    } else {
+
+      return { top: 0 };
+    }
+  },
 })
 
 export default router

@@ -6,7 +6,9 @@
 </script>
 
 <template>
-    <SearchBar />
+    <RouterLink to="/search">
+        <SearchBar />
+    </RouterLink>
     <Carousel />
     <ProductItems />
     <Navbar />
