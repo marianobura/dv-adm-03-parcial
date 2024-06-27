@@ -25,7 +25,7 @@
 </template>
 
 <style>
-    span {
+    label span {
         color: red;
     }
 
