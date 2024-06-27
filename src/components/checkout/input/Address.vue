@@ -17,11 +17,11 @@
             class="form-control"
             id="user-address" 
             type="text" 
-            placeholder="Ingrese su dirección"
+            placeholder="Dirección"
             v-model="address"
             @input="handleInput"
         />
 
-        <p v-if="isValid">Dirección requerido</p>
+        <p class="form-error" v-if="isValid">Dirección requerido</p>
     </div>
 </template>

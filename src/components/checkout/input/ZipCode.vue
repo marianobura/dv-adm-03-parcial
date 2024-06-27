@@ -4,7 +4,7 @@
     let zipCode = ref('');
     let isValid = ref(false);
 
-    const zipCodePattern = /^\d{4}$|^[A-Z]\d{4}$|^[A-Z]\d{4}[A-Z]{3}$/;
+    const zipCodePattern = /^\d{4}$|^[A-Za-z]\d{4}$|^[A-Za-z]\d{4}[A-Za-z]{3}$/;
 
     const handleInput = () => {
         isValid.value = !zipCodePattern.test(zipCode.value);
@@ -19,11 +19,11 @@
             class="form-control"
             id="user-zipcode" 
             type="text" 
-            placeholder="Ingrese su código postal"
+            placeholder="Código postal"
             v-model="zipCode"
             @input="handleInput"
         />
 
-        <p v-if="isValid">Código postal requerido</p>
+        <p class="form-error" v-if="isValid">Código postal requerido</p>
     </div>
 </template>

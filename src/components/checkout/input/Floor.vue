@@ -12,7 +12,7 @@
             class="form-control"
             id="user-floor" 
             type="number" 
-            placeholder="Ingrese su piso"
+            placeholder="Piso"
             v-model="floor"
         />
     </div>

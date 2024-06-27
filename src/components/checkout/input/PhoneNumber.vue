@@ -19,11 +19,11 @@
             class="form-control"
             id="user-phonenumber" 
             type="number" 
-            placeholder="Ingrese su número de teléfono" 
+            placeholder="Número de teléfono" 
             v-model="phoneNumber"
             @input="handleInput"
         />
 
-        <p v-if="isValid">Número de teléfono inválido</p>
+        <p class="form-error" v-if="isValid">Número de teléfono inválido</p>
     </div>
 </template>

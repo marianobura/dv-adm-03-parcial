@@ -19,11 +19,11 @@
             class="form-control"
             id="user-fullname" 
             type="text" 
-            placeholder="Ingrese su nombre completo"
+            placeholder="Nombre completo"
             v-model="fullName"
             @input="handleInput"
         />
 
-        <p v-if="isValid">Nombre completo requerido</p>
+        <p class="form-error" v-if="isValid">Nombre completo requerido</p>
     </div>
 </template>

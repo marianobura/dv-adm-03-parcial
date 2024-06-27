@@ -1,17 +1,17 @@
 <script setup>
+    import PaymentForm from '@/components/payment/PaymentForm.vue';
     import NavInfo from '@/components/NavInfo.vue';
-    import CheckoutForm from '../components/checkout/CheckoutForm.vue'
     import ButtonFixed from '@/components/ButtonFixed.vue';
 </script>
 
 <template>
     <NavInfo 
-        viewTitle="Información de envío"
+        viewTitle="Información de pago"
     />
-    <CheckoutForm />
+    <PaymentForm />
     <RouterLink to="/payment">
         <ButtonFixed
-            textContent="MÉTODOS DE PAGO"
+            textContent="CONFIRMAR COMPRA"
         />
     </RouterLink>
 </template>

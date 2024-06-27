@@ -31,6 +31,6 @@
             </option>
         </select>
 
-        <p v-if="!isValid">Provincia requerido</p>
+        <p class="form-error" v-if="!isValid">Provincia requerido</p>
     </div>
 </template>

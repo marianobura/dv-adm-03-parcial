@@ -5,20 +5,15 @@
     import Floor from './input/Floor.vue';
     import ZipCode from './input/ZipCode.vue';
     import Province from './input/Province.vue';
-    import NavInfo from '../NavInfo.vue';
-
 </script>
 
 <template>
-    <NavInfo 
-        viewTitle="Proceso de compra"
-    />
     <div class="container m-60">
         <form method="post" autocomplete="false">
-            <h1 class="fs-4">Información personal</h1>
+            <h2 class="fs-5">Información personal</h2>
             <FullName />
             <PhoneNumber />
-            <h1 class="fs-4 mt-4">Dirección de envío</h1>
+            <h2 class="fs-5 mt-4">Dirección de envío</h2>
             <Province />
             <Address />
             <div class="form-row">
@@ -30,15 +25,6 @@
 </template>
 
 <style>
-    p {
-        color: red;
-        text-transform: uppercase;
-        font-size: 12px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        margin: 6px 0 0 0;
-    }
-
     span {
         color: red;
     }
