@@ -16,7 +16,7 @@
     });
 
     const handleInput = () => {
-        isValid.value = province.value !== ''
+        isValid.value = province.value == ''
     }
 </script>
 
@@ -31,6 +31,6 @@
             </option>
         </select>
 
-        <p class="form-error" v-if="!isValid">Provincia requerido</p>
+        <p class="form-error" v-if="isValid">Provincia requerido</p>
     </div>
 </template>
